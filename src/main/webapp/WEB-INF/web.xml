@@ -3,6 +3,7 @@
 	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 	id="WebApp_ID" version="4.0">
+	
 	<servlet>
 		<servlet-name>LoginServlet</servlet-name>
 		<servlet-class>LoginServlet</servlet-class>
@@ -118,5 +119,187 @@
 	<servlet-mapping>
 		<servlet-name>BYUpdateServlet</servlet-name>
 		<url-pattern>/byUpdate</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>ShaIchiranServlet</servlet-name>
+		<servlet-class>ShaIchiranServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShaIchiranServlet</servlet-name>
+		<url-pattern>/shaIchiran</url-pattern>
+	</servlet-mapping>
+	
+    <servlet>
+        <servlet-name>ShaSinkiServlet</servlet-name>
+		<servlet-class>ShaSinkiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShaSinkiServlet</servlet-name>
+		<url-pattern>/shaSinki</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>ShaInsertServlet</servlet-name>
+		<servlet-class>ShaInsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShaInsertServlet</servlet-name>
+		<url-pattern>/shaInsert</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>ShaHenshuServlet</servlet-name>
+		<servlet-class>ShaHenshuServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShaHenshuServlet</servlet-name>
+		<url-pattern>/shaHenshu</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>ShaUpdateServlet</servlet-name>
+		<servlet-class>ShaUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShaUpdateServlet</servlet-name>
+		<url-pattern>/shaUpdate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>KotuRirekiServlet</servlet-name>
+		<servlet-class>KotuRirekiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KotuRirekiServlet</servlet-name>
+		<url-pattern>/kotuRireki</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>KotuShosaiServlet</servlet-name>
+		<servlet-class>KotuShosaiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KotuShosaiServlet</servlet-name>
+		<url-pattern>/kotuShosai</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>KotuHenshuServlet</servlet-name>
+		<servlet-class>KotuHenshuServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KotuHenshuServlet</servlet-name>
+		<url-pattern>/kotuHenshu</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>KotuUpdateServlet</servlet-name>
+		<servlet-class>KotuUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KotuUpdateServlet</servlet-name>
+		<url-pattern>/kotuUpdate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>KotuSinseiServlet</servlet-name>
+		<servlet-class>KotuSinseiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KotuSinseiServlet</servlet-name>
+		<url-pattern>/kotuSinsei</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>KotuInsertServlet</servlet-name>
+		<servlet-class>KotuInsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KotuInsertServlet</servlet-name>
+		<url-pattern>/kotuInsert</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>MibaraiIchiranServlet</servlet-name>
+		<servlet-class>MibaraiIchiranServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MibaraiIchiranServlet</servlet-name>
+		<url-pattern>/mibaraiIchiran</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>MibaraiShosaiServlet</servlet-name>
+		<servlet-class>MibaraiShosaiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MibaraiShosaiServlet</servlet-name>
+		<url-pattern>/mibaraiShosai</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>SiharaiUpdateServlet</servlet-name>
+		<servlet-class>SiharaiUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SiharaiUpdateServlet</servlet-name>
+		<url-pattern>/siharaiUpdate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>SiharaiIchiranServlet</servlet-name>
+		<servlet-class>SiharaiIchiranServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SiharaiIchiranServlet</servlet-name>
+		<url-pattern>/siharaiIchiran</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>SiharaiShosaiServlet</servlet-name>
+		<servlet-class>SiharaiShosaiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SiharaiShosaiServlet</servlet-name>
+		<url-pattern>/siharaiShosai</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>ShoninShosaiServlet</servlet-name>
+		<servlet-class>ShoninShosaiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShoninShosaiServlet</servlet-name>
+		<url-pattern>/shoninShosai</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>ShoninServlet</servlet-name>
+		<servlet-class>ShoninServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShoninServlet</servlet-name>
+		<url-pattern>/shonin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>ShoninzumiIchiranServlet</servlet-name>
+		<servlet-class>ShoninzumiIchiranServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShoninzumiIchiranServlet</servlet-name>
+		<url-pattern>/shoninzumiIchiran</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>MishoninIchiranServlet</servlet-name>
+		<servlet-class>MishoninIchiranServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MishoninIchiranServlet</servlet-name>
+		<url-pattern>/mishouninIchiran</url-pattern>
 	</servlet-mapping>
 </web-app>
